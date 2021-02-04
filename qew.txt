@@ -1,0 +1,29 @@
+1 691 рубашка черна€ - https://www.wildberries.ru/catalog/4273042/detail.aspx?targetUrl=GP 
+1 960 рубашка син€€ - https://www.wildberries.ru/catalog/13502037/detail.aspx?targetUrl=GP
+4 999 рубашка коричнева€ - https://www.wildberries.ru/catalog/9925491/detail.aspx?targetUrl=GP
+2 795 рубашка син€€ - https://www.wildberries.ru/catalog/5185432/detail.aspx?targetUrl=GP
+3 999 рубашка светло берюзова€ - https://www.wildberries.ru/catalog/7366695/detail.aspx?targetUrl=GP
+3 995 рубашка бледно-голуба€ - https://www.wildberries.ru/catalog/11340350/detail.aspx?targetUrl=GP
+4 928 толстовка черна€ - https://www.wildberries.ru/catalog/11673080/detail.aspx?targetUrl=GP
+3 750 толстовка черна€ - https://www.wildberries.ru/catalog/9435669/detail.aspx?targetUrl=SG
+3 095 толстовка черна€ - https://www.wildberries.ru/catalog/6529380/detail.aspx?targetUrl=AB
+2 387 толстовка белый, черный, фиолетовый - https://www.wildberries.ru/catalog/13329219/detail.aspx?targetUrl=GP
+1 672 свитшот - https://www.wildberries.ru/catalog/6346847/detail.aspx?targetUrl=GP
+6 904 костюм светлый - https://www.wildberries.ru/catalog/10773952/detail.aspx?targetUrl=GP
+494 брюки ÷вет: черный, светло-бирюзовый - https://www.wildberries.ru/catalog/13034084/detail.aspx?targetUrl=GP
+
+
+
+for j in range (0, 10, 1):
+    counter = 0
+    split_mass = str(chat_mass[j]).split()
+    for k in range (0, len(split_mass), 1):
+        for key in chat_mass:
+            split_key = str(key).split()
+            for g in range (0, len(split_key), 1):
+                if split_key[g] == split_mass[k]:
+                    counter+=1
+        new_mass.append(str(counter) + ' ' + split_mass[k])
+        print(1)
+        #new_mass.insert(str(counter), split_mass[k])
+123
