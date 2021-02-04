@@ -26,4 +26,4 @@ for j in range (0, 10, 1):
         new_mass.append(str(counter) + ' ' + split_mass[k])
         print(1)
         #new_mass.insert(str(counter), split_mass[k])
-123
+1233
